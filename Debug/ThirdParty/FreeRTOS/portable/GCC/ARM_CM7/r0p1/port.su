@@ -1,3 +1,4 @@
+../Drivers/CMSIS/Include/core_cm7.h:1865:22:__NVIC_SetPriorityGrouping	24	static
 ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:181:15:pxPortInitialiseStack	24	static
 ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:213:13:prvTaskExitError	16	static,ignoring_inline_asm
 ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:239:6:SVC_Handler	0	static,ignoring_inline_asm
@@ -11,3 +12,4 @@
 ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:678:32:vPortSetupTimerInterrupt	4	static
 ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:700:13:vPortEnableVFP	0	static,ignoring_inline_asm
 ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:717:10:vPortValidateInterruptPriority	16	static,ignoring_inline_asm
+../ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c:777:6:vInitPrioGroupValue	8	static

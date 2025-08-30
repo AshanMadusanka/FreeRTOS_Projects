@@ -1,6 +1,13 @@
 ThirdParty/FreeRTOS/event_groups.o: ../ThirdParty/FreeRTOS/event_groups.c \
  C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/FreeRTOS.h \
  C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/Global.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../Core/Inc/stm32f7xx_hal_conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -42,6 +49,13 @@ ThirdParty/FreeRTOS/event_groups.o: ../ThirdParty/FreeRTOS/event_groups.c \
  C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/timers.h
 C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/FreeRTOS.h:
 C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/Global.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:

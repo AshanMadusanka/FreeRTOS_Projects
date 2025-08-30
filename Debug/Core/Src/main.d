@@ -26,7 +26,23 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/Global.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/projdefs.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/portable.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/portmacro.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/task.h \
+ C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/list.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
@@ -56,3 +72,19 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/Global.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/SEGGER/Config/SEGGER_RTT_Conf.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/projdefs.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/portable.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/portable/GCC/ARM_CM7/r0p1/portmacro.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/task.h:
+C:/Users/Ashan/STM32CubeIDE/RTOS_workspace/FreeRTOS_Projects/ThirdParty/FreeRTOS/include/list.h:

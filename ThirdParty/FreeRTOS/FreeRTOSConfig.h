@@ -41,7 +41,7 @@
  * See http://www.freertos.org/a00110.html
  *----------------------------------------------------------*/
 
-#define configUSE_PREEMPTION					0
+#define configUSE_PREEMPTION					1
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION	1
 #define configUSE_QUEUE_SETS					1
 #define configUSE_IDLE_HOOK						0
@@ -99,6 +99,9 @@ to exclude the API function. */
 #define INCLUDE_eTaskGetState			1
 #define INCLUDE_xTimerPendFunctionCall	1
 
+#define INCLUDE_xTaskGetIdleTaskHandle  1
+#define INCLUDE_pxTaskGeStackStart		1
+
 /* Cortex-M specific definitions. */
 #ifdef __NVIC_PRIO_BITS
 	/* __BVIC_PRIO_BITS will be specified when CMSIS is being used. */
@@ -129,6 +132,8 @@ standard names. */
 #define xPortPendSVHandler PendSV_Handler
 #define vPortSVCHandler SVC_Handler
 #define xPortSysTickHandler SysTick_Handler
+
+#include "SEGGER_SYSVIEW_FreeRTOS.h"
 
 /* Prevent the inclusion of items the assembler will not understand in assembly
 files. */

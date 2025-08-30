@@ -44,7 +44,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+#define DWT_CTRL 	(*(volatile uint32_t*)0xE0001000)
+#define DWT_CYCCNT 	(volatile uint32_t*)0xE0001004
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -96,15 +97,21 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+	// Enable the DWT CYCCNT counter
+  DWT_CTRL |= ( 1 <<0 ); // Set the CYCCNTENA bit in DWT_CTRL register to enable the cycle counter
+
+  SEGGER_SYSVIEW_Conf(); // Configure SEGGER SystemView
+  SEGGER_SYSVIEW_Start(); // Start recording
+	// Create two tasks
   status = xTaskCreate(task1_handler, "Task1", 200, "Hello world from Task 1", 2, &task1_handle);
-    configASSERT(status == pdPASS); // Ensure task creation was successful
+  configASSERT(status == pdPASS); // Ensure task creation was successful
 
 
   status = xTaskCreate(task2_handler, "Task2", 200, "Hello world from Task 2", 2, &task2_handle);
-    configASSERT(status == pdPASS); // Ensure task creation was successful
+  configASSERT(status == pdPASS); // Ensure task creation was successful
     
     // Start the
-    printf("Starting the scheduler\n");
+  //  printf("Starting the scheduler\n");
    vTaskStartScheduler();
 
      
@@ -290,10 +297,10 @@ static void task1_handler(void *params)
         // Print the parameter passed to the task
         printf("%s\n", (char *)params);
         // Toggle an LED (assuming LD1 is connected to GPIO pin)
-       // HAL_GPIO_TogglePin(GPIOB, LD1_Pin);
+      //  HAL_GPIO_TogglePin(GPIOB, LD1_Pin);
         // Delay for a while
        // vTaskDelay(pdMS_TO_TICKS(1000)); // Delay for 1000 ms
-       taskYIELD(); // Yield to allow other tasks to run
+      // taskYIELD(); // Yield to allow other tasks to run
     }
 }
 static void task2_handler(void *params)
@@ -305,8 +312,8 @@ static void task2_handler(void *params)
         // Toggle an LED (assuming LD2 is connected to GPIO pin)
       //  HAL_GPIO_TogglePin(GPIOB, LD2_Pin);
         // Delay for a while
-      //  vTaskDelay(pdMS_TO_TICKS(1000)); // Delay for 1000 ms
-         taskYIELD(); // Yield to allow other tasks to run
+       // vTaskDelay(pdMS_TO_TICKS(1000)); // Delay for 1000 ms
+       //  taskYIELD(); // Yield to allow other tasks to run
     }
 }    
 

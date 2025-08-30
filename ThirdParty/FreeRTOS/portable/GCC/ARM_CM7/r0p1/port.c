@@ -771,3 +771,13 @@ static void vPortEnableVFP( void )
     }
 
 #endif /* configASSERT_DEFINED */
+
+/*-----------------------------------------------------------*/
+
+void vInitPrioGroupValue( void )
+{
+    /* Ensure all priority bits are assigned as preemption priority bits.
+     * This is required for FreeRTOS to work correctly with interrupts.
+     * See comment in vPortValidateInterruptPriority() for details. */
+    NVIC_SetPriorityGrouping( 0U );
+}
